@@ -1,0 +1,51 @@
+##first run LDA(corpus=doc_term_matrix, id2word=dictionary, num_topics=7, random_state=100, chunksize=1000, passes=20)
+
+[(0,
+  '0.014*"energie" + 0.013*"zonnepaneel" + 0.010*"utrecht" + 0.008*"huis" + 0.007*"besparen" + 0.007*"gemeente" + 0.007*"woning" + 0.007*"groen" + 0.006*"behandelen" + 0.006*"led"'),
+ (1,
+  '0.016*"dag" + 0.015*"inspiratie" + 0.010*"vandaag" + 0.008*"week" + 0.008*"interieur" + 0.007*"belegger" + 0.006*"workshop" + 0.006*"inspireren" + 0.006*"together" + 0.005*"fijn"'),
+ (2,
+  '0.007*"innovatie" + 0.007*"duurzaamwonen" + 0.007*"geenkwat" + 0.005*"biodiversiteit" + 0.005*"wassen" + 0.005*"blijven" + 0.005*"nederland" + 0.004*"zonnepark" + 0.004*"miljo" + 0.004*"bosch"'),
+ (3,
+  '0.017*"maken" + 0.015*"goed" + 0.014*"gaan" + 0.011*"mens" + 0.010*"vinden" + 0.009*"mee" + 0.009*"komen" + 0.008*"leven" + 0.007*"samen" + 0.007*"zien"'),
+ (4,
+  '0.009*"ding" + 0.007*"staan" + 0.007*"mode" + 0.007*"product" + 0.007*"kleding" + 0.007*"biologisch" + 0.006*"weekend" + 0.006*"tweedehands" + 0.006*"linkinbio" + 0.006*"kleur"'),
+ (5,
+  '0.013*"bio" + 0.012*"circulair" + 0.010*"link" + 0.010*"fashion" + 0.009*"inspiration" + 0.007*"linken" + 0.007*"bank" + 0.007*"zerowast" + 0.006*"mvo" + 0.006*"via"'),
+ (6,
+  '0.022*"sustainable" + 0.018*"sustainability" + 0.008*"sustainableliving" + 0.007*"design" + 0.006*"amsterdam" + 0.005*"eco" + 0.005*"greenlifestyl" + 0.005*"duurzaamleven" + 0.005*"vegan" + 0.005*"marketing"')]
+  
+
+##Second run without restart LDA(corpus=doc_term_matrix, id2word=dictionary, num_topics=7, random_state=100, chunksize=1000, passes=20)
+
+  [(0,
+  '0.014*"energie" + 0.013*"zonnepaneel" + 0.010*"utrecht" + 0.008*"huis" + 0.007*"besparen" + 0.007*"gemeente" + 0.007*"woning" + 0.007*"groen" + 0.006*"behandelen" + 0.006*"led"'),
+ (1,
+  '0.016*"dag" + 0.015*"inspiratie" + 0.010*"vandaag" + 0.008*"week" + 0.008*"interieur" + 0.007*"belegger" + 0.006*"workshop" + 0.006*"inspireren" + 0.006*"together" + 0.005*"fijn"'),
+ (2,
+  '0.007*"innovatie" + 0.007*"duurzaamwonen" + 0.007*"geenkwat" + 0.005*"biodiversiteit" + 0.005*"wassen" + 0.005*"blijven" + 0.005*"nederland" + 0.004*"zonnepark" + 0.004*"miljo" + 0.004*"bosch"'),
+ (3,
+  '0.017*"maken" + 0.015*"goed" + 0.014*"gaan" + 0.011*"mens" + 0.010*"vinden" + 0.009*"mee" + 0.009*"komen" + 0.008*"leven" + 0.007*"samen" + 0.007*"zien"'),
+ (4,
+  '0.009*"ding" + 0.007*"staan" + 0.007*"mode" + 0.007*"product" + 0.007*"kleding" + 0.007*"biologisch" + 0.006*"weekend" + 0.006*"tweedehands" + 0.006*"linkinbio" + 0.006*"kleur"'),
+ (5,
+  '0.013*"bio" + 0.012*"circulair" + 0.010*"link" + 0.010*"fashion" + 0.009*"inspiration" + 0.007*"linken" + 0.007*"bank" + 0.007*"zerowast" + 0.006*"mvo" + 0.006*"via"'),
+ (6,
+  '0.022*"sustainable" + 0.018*"sustainability" + 0.008*"sustainableliving" + 0.007*"design" + 0.006*"amsterdam" + 0.005*"eco" + 0.005*"greenlifestyl" + 0.005*"duurzaamleven" + 0.005*"vegan" + 0.005*"marketing"')]
+  
+##Third run with restart LDA(corpus=doc_term_matrix, id2word=dictionary, num_topics=7, random_state=100, chunksize=1000, passes=20)
+  
+  [(0,
+  '0.019*"maken" + 0.016*"goed" + 0.013*"gaan" + 0.012*"mens" + 0.010*"vinden" + 0.008*"mee" + 0.008*"komen" + 0.007*"willen" + 0.007*"jaar" + 0.007*"dag"'),
+ (1,
+  '0.009*"vegan" + 0.008*"sustainable" + 0.006*"together" + 0.006*"organic" + 0.006*"fietsen" + 0.006*"heerlijk" + 0.005*"wassen" + 0.005*"shirt" + 0.005*"solar" + 0.004*"fairtrad"'),
+ (2,
+  '0.009*"behandelen" + 0.008*"marketing" + 0.007*"fashion" + 0.007*"materiaal" + 0.006*"werkplek" + 0.005*"hoog" + 0.005*"doelstelling" + 0.005*"erin" + 0.005*"kleren" + 0.005*"dringen"'),
+ (3,
+  '0.009*"komen" + 0.009*"innovatie" + 0.008*"samen" + 0.008*"circulair" + 0.007*"gaan" + 0.007*"ding" + 0.006*"dag" + 0.006*"nieuw" + 0.006*"zien" + 0.005*"energie"'),
+ (4,
+  '0.018*"bio" + 0.013*"sustainability" + 0.010*"linken" + 0.008*"dag" + 0.008*"link" + 0.008*"sustainableliving" + 0.008*"green" + 0.008*"tips" + 0.007*"sustainable" + 0.007*"inspiratie"'),
+ (5,
+  '0.010*"utrecht" + 0.009*"nederland" + 0.007*"belegger" + 0.007*"rotterdam" + 0.006*"energie" + 0.005*"halen" + 0.005*"miljo" + 0.005*"niks" + 0.005*"procent" + 0.005*"zonnepark"'),
+ (6,
+  '0.009*"plastic" + 0.009*"sustainable" + 0.007*"sustainability" + 0.007*"interieur" + 0.007*"inspiration" + 0.006*"design" + 0.005*"zerowast" + 0.005*"greenlifestyl" + 0.005*"duurzaamwonen" + 0.005*"biologisch"')]
